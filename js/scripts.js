@@ -172,28 +172,7 @@ jQuery(document).ready(function() {
 	var curWork,nextWork,previousWork,offsetWork;
 
 	/* Function to load project */
-	jQuery('.work').click(function(){
-		curWork = jQuery(this).attr("id");
-		offsetWork = jQuery("#"+curWork).offset().top;
-		var cur = curWork.split('-');
-		cur=parseInt(cur[1]);
-		nextWork=cur+1;
-		previousWork=cur-1;
-		if (previousWork == 0){
-			previousWork=jQuery('.work').length;
-		}
-		if (nextWork == jQuery('.work').length+1){
-			nextWork=1;
-		}
-		jQuery("#page").fadeOut(750, function(){
-			window.scrollTo(0,0);
-			jQuery("#project-page").fadeIn(750);
-		});
-	    jQuery('#project').load(curWork+".html");
-		jQuery("#previous-project-name").load("work-"+previousWork+".html #project-title");
-		jQuery("#next-project-name").load("work-"+nextWork+".html #project-title");
 	
-	});
 	
 	/* Function to close project */
 	jQuery('#close-project').click(function(){

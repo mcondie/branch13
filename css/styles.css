@@ -70,7 +70,7 @@ height: 100%;
    Header Styles
    ========================================================================== */
 
-#header{overflow:hidden;height:auto;background: url('/images/colorbranch.jpg') fixed no-repeat; height:100%;}
+#header{overflow:hidden;height:auto;background: url('/images/branchback.jpg') fixed no-repeat; height:100%;}
 .no-touch #header{-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;background-attachment: fixed;}
 
 #logo{display:none;}
@@ -425,4 +425,18 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 	#next-project:hover,#previous-project:hover,#close-project:hover{opacity:1;}
 	
 
+}
+
+.sublogo{
+   font-family: 'Cabin','Helvetica Neue';
+   color: #f4594e;
+}
+
+h1{
+   font-size: 40px;
+   font-family: 'Revalia', cursive;
+}
+
+#w-filter{
+   display: none;
 }
