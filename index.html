@@ -40,7 +40,7 @@ title: branch13
 					<div class="col-md-8">
 						<nav id="top-navigation">
 							<ul class="list-inline">
-								<li><a href="#team">team</a></li>
+								<!--<li><a href="#team">team</a></li>-->
 								<!--<li><a href="#studio">studio</a></li>-->
 								<li><a href="#services">services</a></li>
 								<li><a href="#works">work</a></li>
@@ -53,9 +53,10 @@ title: branch13
 			</div>
 		</div>
 		<!-- END TOP-BAR -->	
-		
-		<!-- START TEAM SECTION -->
 		<section id="team">
+		</section>
+		<!-- START TEAM SECTION -->
+		<!--<section id="team">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-sm-offset-3 intro">
 					<h1>Our Team</h1>
@@ -95,7 +96,7 @@ title: branch13
 					</div>	
 				</div>		
 			</div>
-		</section>
+		</section>-->
 		<!-- END TEAM SECTION -->
 		
 		<!-- START SERVICES SECTION -->
@@ -107,19 +108,26 @@ title: branch13
 				</div>
 			</div>
 			<div id="services-list" class="container row">
-				<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="col-xs-3 col-sm-6 col-md-3">
 					<div id="branding" class="service smooth">
 						<img  src="images/services/branding.svg" alt="Branding">	
 						<h5 class="hidden-xs">Analytics</h5>
+						
 					</div>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="col-xs-3 col-sm-6 col-md-3">
 					<div id="web" class="service smooth">
 						<img  src="images/services/web.svg" alt="Webdesign">	
 						<h5 class="hidden-xs">Development</h5>
 					</div>
 				</div>
-				<div class="col-xs-4 col-sm-4 col-md-4">
+				<div class="col-xs-3 col-sm-6 col-md-3">
+					<div id="mobile" class="service smooth">
+						<img  src="images/services/mobile.svg" alt="Mobile">	
+						<h5 class="hidden-xs">Mobile</h5>
+					</div>
+				</div>
+				<div class="col-xs-3 col-sm-6 col-md-3">
 					<div id="illustration" class="service smooth">
 						<img  src="images/services/illustration.svg" alt="Illustration">	
 						<h5 class="hidden-xs">Design</h5>
@@ -132,12 +140,34 @@ title: branch13
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div id="branding-skills" style="display:none;">
 						<h1>Analytics</h1>
+						<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 intro service_desc">
+							<p>
+							Let us help you find the numbers to grow your business. We've got the expertise to help you with Omniture, Google Analytics, Mixpanel, Kissmetrics, and many other platforms.</p>
+						</div>
 					</div>
 					<div id="web-skills" style="display:none;">
 						<h1>Development</h1>
+						<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 intro service_desc">
+							<p>
+								We believe in using the right tool for the job. We don't try and sell you on a language or platform just because it is the only one we know. We're experts in .Net, Java, Ruby, Javascript and many other languages. We can also help you decide which CMS or other technology platform you should use, because we have worked with a lot of them. 
+							</p>
+						</div>
+					</div>
+					<div id="mobile-skills" style="display:none;">
+						<h1>Mobile</h1>
+						<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 intro service_desc">
+							<p>
+							Whether you need a responsive website, or a native app that works seamlessly with a larger web application, we are ready to help. We have built and published apps for IOS and Android, and we always use responsive frameworks to give your customers the best mobile experience. 
+						</p>
+						</div>
 					</div>
 				  <div id="illustration-skills" style="display:none;">
 						<h1>Design</h1>
+						<div class="col-xs-12 col-sm-12 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6 intro service_desc">
+							<p>
+								Technology design works best when developers are involved every step of the way. Our designers are also developers, and can work with you from wire frames to a finished product, ensuring a consistent design and high quality.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -158,7 +188,8 @@ title: branch13
 					<div id="work-filter" class="center-list">
 					    <ul class="list-inline hidden-xs">
 					        <li class="filter active" data-filter="all">all</li>
-					        <li class="filter" data-filter="branding">branding</li>
+					        <li class="filter" data-filter="branding">
+					        branding</li>
 					        <li class="filter" data-filter="photography">photography</li>
 					        <li class="filter" data-filter="illustration">illustration</li>
 					        <li class="filter" data-filter="video">video</li>

@@ -440,3 +440,7 @@ h1{
 #w-filter{
    display: none;
 }
+
+.service_desc{
+   padding-top: 30px;
+}
